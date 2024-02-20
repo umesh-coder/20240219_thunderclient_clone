@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Thunder Client</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.min.css">
+    <link rel="icon" href="assets/thunderstorms-line.png">
+    <script src='main.js'></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.js"></script>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="request">
+            <!-- nav down -->
+
+            <div class="down">
+
+                <div class="option">
+                    <form class="example" action="/action_page.php">
+                        <select name="method" id="method">
+                            <option value="GET">GET</option>
+                            <option value="POST">POST</option>
+                            <option value="PUT">PUT</option>
+                            <option value="DELETE">DELETE</option>
+                            <option value="PATCH">PATCH</option>
+                            <option value="HEAD">HEAD</option>
+                            <option value="OPTIONS">OPTIONS</option>
+                            <option value="PATCH">PROFIND</option>
+                            <option value="HEAD">CUSTOM</option>
+                        </select>
+                        <input type="text" placeholder="https://www.thunderclient.com/welcome" name="search2">
+                        <input type="submit" value="Send">
+
+                    </form>
+                </div>
+                <div class="three_btn">
+                    <input type="button" class="btn1" value="Query">
+                    <input type="button" class="btn2" value="Headers">
+                    <input type="button" class="btn3" value="Auth">
+                    <input type="button" class="btn1" value="Body">
+                    <input type="button" class="btn2" value="Tests">
+                    <input type="button" class="btn3" value="Pre run">
+                </div>
+                <hr style="color: aliceblue;">
+
+                <div class="operations">
+
+                    <h1 style="color: aliceblue;">option</h1>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+        <div class="response">
+
+            <div class="dis">
+                <div class="print">
+                    <h2>Status:</h2>
+                </div>
+                <div class="print">
+                    <h2>Size:</h2>
+                </div>
+                <div class="print">
+                    <h2>Time:</h2>
+                </div>
+            </div>
+
+            <div class="options2">
+
+                <input type="button" class="btno2" value="Response">
+                <input type="button" class="btno2" value="Headers">
+                <input type="button" class="btno2" value="Cookies">
+                <input type="button" class="btno2" value="Results">
+                <input type="button" class="btno2" value="Docs">
+
+            </div>
+
+            <hr>
+
+            <div class="printresponse">
+                <h2>responses</h2>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
