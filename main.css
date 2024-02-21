@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Roboto";
-  font-size: 14px;
+  font-size: 20px;
   text-decoration: none solid rgb(33, 40, 54);
   height: 100%;
   width: 100%;
+  font-family: 'Roboto';
 }
 
 .main {
@@ -69,14 +72,14 @@ form.example input {
   margin-top: 5%;
   width: 10%;
   background: rgb(21, 153, 234);
-  color: white;
+  /* color: white; */
   font-size: 20px;
   height: 60%;
   border: white;
 }
 
 form.example input:hover {
-  background:#00FFFFFF;
+  background: #00ffffff;
   opacity: 100%;
 }
 
@@ -130,7 +133,7 @@ hr {
 }
 
 .response {
-  border-left: 3px solid rgb(71,75,83);
+  border-left: 3px solid rgb(71, 75, 83);
   background-color: rgb(33, 40, 54);
   display: flex;
   flex-direction: column;
@@ -142,7 +145,6 @@ hr {
   display: flex;
   flex-direction: row;
   height: 10%;
-  
 }
 
 .print {
@@ -160,15 +162,16 @@ hr {
   flex-direction: row;
 }
 
-.btno2{
+.btno2 {
   background-color: rgb(33, 40, 54);
   height: 40px;
   width: 100px;
   color: white;
   border: none;
-
 }
 
 .printresponse {
-  height: 50%;
+  height: 80%;
+  overflow-y: scroll;
+  color: white;
 }

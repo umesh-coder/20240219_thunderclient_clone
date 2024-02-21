@@ -9,7 +9,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.min.css">
     <link rel="icon" href="assets/thunderstorms-line.png">
-    <script src='main.js'></script>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.js"></script>
@@ -25,7 +25,7 @@
             <div class="down">
 
                 <div class="option">
-                    <form class="example" action="/action_page.php">
+                    <form class="example" >
                         <select name="method" id="method">
                             <option value="GET">GET</option>
                             <option value="POST">POST</option>
@@ -37,8 +37,8 @@
                             <option value="PATCH">PROFIND</option>
                             <option value="HEAD">CUSTOM</option>
                         </select>
-                        <input type="text" placeholder="https://www.thunderclient.com/welcome" name="search2">
-                        <input type="submit" value="Send">
+                        <input type="text" placeholder="https://www.thunderclient.com/welcome" name="link" id="link">
+                        <input type="button" value="Send" onclick="fetch_data()">
 
                     </form>
                 </div>
@@ -54,7 +54,7 @@
 
                 <div class="operations">
 
-                    <h1 style="color: aliceblue;">option</h1>
+                    <h1 style="color: aliceblue;">Work in Progress</h1>
                 </div>
 
 
@@ -91,14 +91,15 @@
 
             <hr>
 
-            <div class="printresponse">
-                <h2>responses</h2>
+            <div class="printresponse" id="json-data" >
+                <!-- <h2>responses</h2> -->
             </div>
 
         </div>
 
     </div>
-
+    
+    <script src='main.js'></script>
 </body>
 
 </html>
